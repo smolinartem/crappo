@@ -6,9 +6,58 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Crappo</title>
   <link rel='stylesheet' href='./styles/index.css'>
+  <script defer type='module' src='./javascript/index.js'></script>
 </head>
 
-<body>
+<body class='page'>
+  <div class='menu'>
+    <ul class='menu__list list'>
+      <li class='menu__item'>
+        <a class='menu__link link hover' href='/'>Products</a>
+      </li>
+      <li class='menu__item'>
+        <a class='menu__link link hover' href='/'>Features</a>
+      </li>
+      <li class='menu__item'>
+        <a class='menu__link link hover' href='/'>About</a>
+      </li>
+      <li class='menu__item'>
+        <a class='menu__link link hover' href='/'>Contact</a>
+      </li>
+    </ul>
+    <div class='menu__auth'>
+      <button class='menu__login btn-reset hover'>Login</button>
+      <button class='menu__register btn-reset btn-main hover'>Register</button>
+    </div>
+  </div>
+  <header class='header'>
+    <div class='header__container container'>
+      <a class='header__logo logo link hover' href='/'>
+        <img class='header__img logo__img img' src='./images/logo.png' alt='Logo crappo.'>
+      </a>
+      <div class='header__nav'>
+        <ul class='header__list list'>
+          <li class='header__item'>
+            <a class='header__link link hover' href='/'>Products</a>
+          </li>
+          <li class='header__item'>
+            <a class='header__link link hover' href='/'>Features</a>
+          </li>
+          <li class='header__item'>
+            <a class='header__link link hover' href='/'>About</a>
+          </li>
+          <li class='header__item'>
+            <a class='header__link link hover' href='/'>Contact</a>
+          </li>
+        </ul>
+        <div class='header__auth'>
+          <button class='header__login btn-reset hover'>Login</button>
+          <button class='header__register btn-reset btn-main hover'>Register</button>
+        </div>
+      </div>
+      <button class='header__burger btn-reset hover'></button>
+    </div>
+  </header>
 
 </body>
 
