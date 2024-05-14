@@ -4,6 +4,7 @@
 
 @media (max-width: 670px) {
   .menu {
+    padding-top: 100px;
     display: block;
     height: 100%;
     width: 0;
